@@ -1,15 +1,11 @@
-autocmd BufNewFile * startinsert
-" Turn on line numbers
-set number
-set ruler
+set runtimepath+=~/.vim_runtime
 
-" Hopefully this will turn on syntax highlighting
-filetype plugin indent on
-syntax on
+source ~/.vim_runtime/vimrcs/basic.vim
+source ~/.vim_runtime/vimrcs/filetypes.vim
+source ~/.vim_runtime/vimrcs/plugins_config.vim
+source ~/.vim_runtime/vimrcs/extended.vim
 
-" Highlights last search pattern
-set hlsearch
-
-set pastetoggle=<F2>
-
-inoremap {<CR> {<CR>}<Esc>ko
+try
+source ~/.vim_runtime/my_configs.vim
+catch
+endtry

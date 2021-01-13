@@ -8,8 +8,6 @@ echo "Henlo frend"
 export PS1="\[\033[0;31m\]\d \t - \W \[\033[0m\]$ "
 
 
-# Setting PATH for Python 3.5
-# The orginal version is saved in .bash_profile.pysave
 alias showFiles='defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app'
 alias hideFiles='defaults write com.apple.finder AppleShowAllFiles NO; killall Finder /System/Library/CoreServices/Finder.app'
 
