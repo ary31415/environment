@@ -66,6 +66,9 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
+# tab completion behavior
+setopt MENU_COMPLETE
+
 # Turn off shared history between shells (sharing is annoying
 # with tmux panes and stuff)
 unsetopt share_history
