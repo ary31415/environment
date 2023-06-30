@@ -129,10 +129,10 @@ set smartcase
 " Highlight search results
 set hlsearch
 
-" ~~ARY~~                                                                                                                                                                                                                                                                      
-" Show number of matches when searching                                                                                                                                                                                                                                        
-" ~~~~                                                                                                                                                                                                                                                                         
-set shortmess-=S 
+" ~~ARY~~
+" Show number of matches when searching
+" ~~~~
+set shortmess-=S
 
 " ~~ARY~~
 " Clears search highlighting by pressing escape (instead of typing :noh)
