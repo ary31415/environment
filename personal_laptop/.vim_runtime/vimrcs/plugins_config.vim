@@ -202,3 +202,10 @@ nnoremap <Leader>* :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
 
 set tags=./tags;,tags;
 nmap <F8> :TagbarToggle<CR>
+
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Vim indent guides plugin
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+nnoremap <leader>ig :IndentGuidesToggle<CR>:set sw=2 ts=2 et<CR>
