@@ -7,33 +7,50 @@ https://github.com/amix/vimrc
 
 # Vim stuff
 
-<leader>g = Ack = grep whole project
+### Ack
 
-<c-f> = ctrlp — find file
-<c-t> to open in new tab
-<c-v> for vertical split
+`<leader>g` = Ack = grep whole project
 
-<leader>f = :MRU — recently used files
+`<c-f>` = ctrlp — find file
 
-<leader>ig = :IndentGuideToggle
-:set sw=2 ts=2 et
+`<c-t>` to open in new tab
 
-<leader>zx = zen mode with line numbers (goyo)
-<leader>zz = zen mode w/o line numbers
+`<c-v>` for vertical split
 
-<leader>a = ALE -> go to next error
+### MRU
 
-Ctrl-W V    Opens a new vertical split
-Ctrl-W S    Opens a new horizontal split
-Ctrl-W C    Closes a window
-Ctrl-W O    Makes the current window the only one on screen and closes other windows
+`<leader>f` = `:MRU` — recently used files
 
-:tab split		Opens another window to the existing buffer in a new tab
+### Indent guide
+
+`<leader>ig` = `:IndentGuideToggle`
+`:set sw=2 ts=2 et`
+
+### Goyo
+
+`<leader>zx` = zen mode with line numbers
+
+`<leader>zz` = zen mode w/o line numbers
+
+### ALE
+
+`<leader>a` = ALE -> go to next error
+
+### General window management
+
+`Ctrl-W V`    Opens a new vertical split
+`Ctrl-W S`    Opens a new horizontal split
+`Ctrl-W C`    Closes a window
+`Ctrl-W O`    Makes the current window the only one on screen and closes other windows
+
+`:tab split`		Opens another window to the existing buffer in a new tab
+
+### Surround.vim
 
 in visual lines mode, capital S for surround
 
 
-Lookup: 
+## Lookup: 
 
 Surround.vim (already installed in amix) 
 ctags
