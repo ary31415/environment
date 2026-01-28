@@ -1,6 +1,9 @@
 # environment
 Just some environment files I want places
 
+Can ignore the personal-laptop directory, and just keep the work laptop one.
+Note that you have to install oh-my-zsh separately, and modify the robby-russell theme file to use my custom prompt.
+
 
 Source for vim stuff:
 https://github.com/amix/vimrc
